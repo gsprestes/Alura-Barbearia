@@ -6,13 +6,11 @@ body{
 .container{
     max-width: 1000px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: #CCCCCC;
     box-sizing: border-box;
 }
 
 .header{
+    background-color: #cccccc;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
@@ -53,3 +51,21 @@ body{
 .menu a:hover{
     background-color: dodgerblue;
 }
+
+.first_container{
+    display: flex;
+    align-items: center;
+}
+
+.products{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.products li{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 1.5%;
+}
+
