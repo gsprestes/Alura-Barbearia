@@ -1,11 +1,21 @@
-/* *{
-    padding: 0;
-    margin: 0;
-} */
-
 body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container{
     max-width: 1000px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #CCCCCC;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
 
 .banner{
@@ -14,19 +24,61 @@ body{
 
 .first_container{
     background-color: #CCCCCC;
-    padding: 30px;
-    box-sizing: border-box;
+    padding: 0 10px;
+
 }
 .title{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .paragraph{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    text-justify: auto;
 }
 
 .paragraph em strong{
-    color: mediumblue;
+    color: red;
 }
+
+.title_benefits{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #CCCCCC;
+    padding: 10px;
+    border-top: 1px dashed black;
+}
+
+
+.second_container{
+   display: flex;
+   width: 100%;
+}
+
+.second_container ul{
+    list-style: none;
+}
+
+.second_container li{
+    padding: 40px;
+}
+
+.benefits_list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-transform: capitalize;
+    background-color: #CCCCCC;
+    background-image: url(assets/beneficios.jpg);
+    color: #CCCCCC;
+    background-size: cover;
+    text-decoration: underline;
+}
+
+
+
+
+
+
